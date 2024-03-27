@@ -11,7 +11,5 @@ RUN curl -O https://s3-us-west-2.amazonaws.com/studentapi-cit/mysql-connector.ja
 COPY context.xml conf/context.xml
 
 
-
-
 EXPOSE 8080
 CMD ["/opt/apache-tomcat-8.5.99/bin/catalina.sh", "run"]
