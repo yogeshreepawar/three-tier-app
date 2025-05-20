@@ -6,3 +6,12 @@ This project demonstrates a simple **three-tier architecture** using Docker. The
 - **Frontend** – Served by **Apache HTTP Server**
 - **Backend** – A Java application deployed on **Apache Tomcat**
 - **Database** – **MySQL** used to persist data
+
+
+## 🧱 Architecture Overview
+
+[ Apache HTTP Server ]
+↓
+[ Apache Tomcat Backend ]
+↓
+[ MySQL Database ]
